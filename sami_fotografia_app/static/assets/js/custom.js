@@ -37,6 +37,7 @@ if ($('#testimonial_owl_id').length) {
     dots:true,
     animateIn: 'fadeIn', 
     animateOut: 'fadeOut',
+    autoplay:true,
     responsive:{
             0:{
                 items:1
@@ -87,6 +88,7 @@ $(window).load(function(){
         margin:10,
         nav:true,
         dots:false,
+        autoplay:true,
         responsive:{
                 0:{
                     items:1
